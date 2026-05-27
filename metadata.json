@@ -1,0 +1,6 @@
+{
+  "name": "AIHawk SaaS",
+  "description": "Deploy-ready AI Job Application Automation Platform with ATS analysis, cover letter generator, agent runners, and job tracker.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,111 @@
+@import "tailwindcss";
+
+@variant dark (&:where(.dark, .dark *));
+
+/* ==========================================
+   GLOBAL DARK THEME OVERRIDES
+   ========================================== */
+
+.dark body {
+  background-color: #020617 !important; /* slate-950 */
+  color: #f1f5f9 !important; /* slate-100 */
+}
+
+/* Base structural containers */
+.dark .bg-white {
+  background-color: #0b0f19 !important; /* deep slate-900 border matching */
+  color: #f1f5f9 !important;
+}
+
+.dark .bg-slate-50 {
+  background-color: #020617 !important; /* slate-950 */
+}
+
+.dark .bg-gray-50 {
+  background-color: #111827 !important; /* dark-gray input / card fill */
+  color: #f1f5f9 !important;
+}
+
+/* Borders positioning and layouts */
+.dark .border-gray-50,
+.dark .border-gray-100,
+.dark .border-gray-150,
+.dark .border-gray-200,
+.dark .border-slate-150,
+.dark .border-slate-200 {
+  border-color: #1e293b !important; /* slate-800 */
+}
+
+/* Text gray classes map down nicely for eye strain */
+.dark .text-gray-900,
+.dark .text-slate-900 {
+  color: #f8fafc !important; /* slate-50 */
+}
+
+.dark .text-gray-800,
+.dark .text-slate-800 {
+  color: #f1f5f9 !important; /* slate-100 */
+}
+
+.dark .text-gray-700,
+.dark .text-slate-700 {
+  color: #e2e8f0 !important; /* slate-200 */
+}
+
+.dark .text-gray-650,
+.dark .text-gray-600,
+.dark .text-slate-600 {
+  color: #cbd5e1 !important; /* slate-350 */
+}
+
+.dark .text-gray-500,
+.dark .text-slate-500 {
+  color: #94a3b8 !important; /* slate-400 */
+}
+
+.dark .text-gray-400,
+.dark .text-slate-400 {
+  color: #64748b !important; /* slate-500 */
+}
+
+.dark .text-gray-450 {
+  color: #475569 !important;
+}
+
+/* Inputs, Textareas and Dropdowns customization */
+.dark input, 
+.dark textarea,
+.dark select {
+  background-color: #0f172a !important; /* slate-900 */
+  border-color: #334155 !important; /* slate-700 */
+  color: #f8fafc !important; /* slate-50 */
+}
+
+.dark input:focus,
+.dark textarea:focus,
+.dark select:focus {
+  border-color: #6366f1 !important;
+  --tw-ring-color: #4f46e5 !important;
+}
+
+.dark input::placeholder,
+.dark textarea::placeholder {
+  color: #64748b !important; /* slate-500 */
+}
+
+/* Hover behaviors */
+.dark .hover\:bg-gray-50:hover,
+.dark .hover\:bg-slate-50:hover {
+  background-color: #1e293b !important; /* slate-800 */
+}
+
+.dark .hover\:text-gray-900:hover,
+.dark .hover\:text-slate-950:hover {
+  color: #f8fafc !important;
+}
+
+/* Dialogs & Modals backdrop */
+.dark .bg-black\/50,
+.dark .bg-slate-900\/50 {
+  background-color: rgba(0, 0, 0, 0.75) !important;
+}
