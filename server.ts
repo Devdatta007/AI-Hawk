@@ -77,7 +77,7 @@ if (hasApiKey) {
 const app = express();
 app.use(express.json());
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 // User Identity Middleware extracting JWT credentials
 const authenticate = async (req: express.Request & { user?: any }, res: express.Response, next: express.NextFunction) => {
