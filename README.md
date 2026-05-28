@@ -1,20 +1,46 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# AI-Hawk — AI Powered Job Automation Platform
 
-# Run and deploy your AI Studio app
+AI-Hawk is a modern AI-powered job automation and recruitment platform designed to streamline job searching, resume analysis, AI-assisted application workflows, and intelligent hiring processes.
 
-This contains everything you need to run your app locally.
+The platform helps users automate repetitive job application tasks, analyze resumes using AI, generate smart insights, and manage applications efficiently through a clean and scalable dashboard.
 
-View your app in AI Studio: https://ai.studio/apps/e0f26e05-52d4-408d-857f-45f879a487af
+ 🚀 Features
 
-## Run Locally
+* AI-powered resume analysis
+* Automated job application workflows
+* Smart hiring assistance
+* Job tracking dashboard
+* Fast and scalable backend
+* Modern TypeScript architecture
+* Real-time processing
+* Secure authentication system
+* Responsive UI/UX
+* Deployment-ready SaaS structure
 
-**Prerequisites:**  Node.js
+🛠 Tech Stack
 
+* TypeScript
+* Node.js
+* FastAPI / Backend APIs
+* Modern Dashboard UI
+* Render Deployment
+* AI Automation Workflows
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+ 🌐 Live Demo
+
+https://ai-hawk.onrender.com/
+
+ 📦 Installation
+
+```bash
+npm install
+npm run build
+npm start
+```
+
+ 📌 Project Goal
+
+AI-Hawk aims to simplify and automate the job application ecosystem using artificial intelligence, helping users save time and improve productivity in recruitment workflows.
+
+Designed and Developed under Nexvora.
+© 2026 Nexvora. All Rights Reserved.
