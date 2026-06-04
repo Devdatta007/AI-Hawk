@@ -43,4 +43,5 @@ npm start
 AI-Hawk aims to simplify and automate the job application ecosystem using artificial intelligence, helping users save time and improve productivity in recruitment workflows.
 
 Designed and Developed under Nexvora.
+
 © 2026 Nexvora. All Rights Reserved.
